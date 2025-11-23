@@ -1,6 +1,8 @@
 # VideoToTFTDisplay
 VIdeo file frame to TFT Display Pixels buffer converter
 
+![HP 00_00_38_18205 Still001](https://github.com/user-attachments/assets/97969f88-b372-4c56-b621-ca993f74467d)
+
 How to use:
 
 1. copy the video you want to play to TFT Display, even better if its already just black and white
@@ -14,10 +16,15 @@ How to use:
 6. open badoled.ino and flash to ESP32s3! if you use ESP32, use this pin instead:
 
 #define SDMMC_CLK   14
+
 #define SDMMC_CMD   15
+
 #define SDMMC_D0    2
+
 #define SDMMC_D1    4
+
 #define SDMMC_D2    12
+
 #define SDMMC_D3    13
 
 DO NOT use PULL UP resistor on pin 12 on ESP32! otherwise it will never able to boot
